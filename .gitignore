@@ -1,4 +1,5 @@
 *.o
 *.swp
+*.exe
 playground/lambda/lambda
 playground/macros/macros
