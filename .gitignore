@@ -1,3 +1,4 @@
 *.o
 *.swp
 playground/lambda/lambda
+playground/macros/macros
