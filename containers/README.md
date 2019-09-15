@@ -6,4 +6,4 @@
 
 ## Questions
 * Given this syntax, `_##X##_ctor()`, why is `X&` ok? (but not `X##&`)?
-* `sizeof(deq.type_name)` will always return 8 bytes (size of a pointer) if `type_name` is a `char*`. So `type_name` must be a static array(?). How to get the length of the `type_name` at preprocessor time?
+~~* `sizeof(deq.type_name)` will always return 8 bytes (size of a pointer) if `type_name` is a `char*`. So `type_name` must be a static array(?). How to get the length of the `type_name` at preprocessor time?~~
