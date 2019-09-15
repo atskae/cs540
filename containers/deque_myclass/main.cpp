@@ -20,9 +20,11 @@ bool Deque_MyClass_empty(Deque_MyClass* deq) {
 
 void Deque_MyClass_ctor(Deque_MyClass* deq, bool (*f)(const MyClass&, const MyClass&)) {
 	deq->num_items = 0;
-	deq->type_name = (char*) malloc(strlen("Deque_") + strlen("MyClass") + 1); // +1 null terminator
-	strcpy(deq->type_name, "Deque_"); // strcpy() includes null terminator
-	strcat(deq->type_name, "MyClass");	
+	//deq->type_name = "MyClass";
+	//deq->type_name = { "MyClass" };
+	//deq->type_name = (char*) malloc(strlen("Deque_") + strlen("MyClass") + 1); // +1 null terminator
+	//strcpy(deq->type_name, "Deque_"); // strcpy() includes null terminator
+	//strcat(deq->type_name, "MyClass");	
 	deq->compare = f;
 	
 	// "methods"
@@ -31,7 +33,7 @@ void Deque_MyClass_ctor(Deque_MyClass* deq, bool (*f)(const MyClass&, const MyCl
 }
 
 void Deque_MyClass_dtor(Deque_MyClass* deq) {
-	free(deq->type_name);
+	//free(deq->type_name);
 }
 
 int main() {

@@ -5,18 +5,20 @@
 
 struct MyClass {
 	int id;
-	char* name[10];
+	char name[10];
 };
 
 struct Deque_MyClass {
 	size_t num_items;
-	char* type_name;
+	const char type_name[sizeof "Deque_MyClass"];
 
 	bool (*compare)(const MyClass&, const MyClass&);
 
 	// "methods"
 	size_t (*size)(Deque_MyClass*);
 	bool (*empty)(Deque_MyClass*);
+
+	Deque_MyClass(): type_name("Deque_MyClass") {}
 };
 
 bool compare(const MyClass& x, const MyClass& y);
