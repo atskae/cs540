@@ -1,0 +1,67 @@
+
+
+************************************
+	Ascending insert for cs540::StdMapWrapper<int, int>	
+************************************
+
+Inserting 1,000 elements in aescending order took 0.102795 milliseconds
+Inserting 10,000 elements in aescending order took 1.46383 milliseconds
+Inserting 100,000 elements in aescending order took 22.9633 milliseconds
+Inserting 1,000,000 elements in aescending order took 387.603 milliseconds
+Inserting 10,000,000 elements in aescending order took 5,546.83 milliseconds
+
+
+************************************
+	Descending insert for cs540::StdMapWrapper<int, int>	
+************************************
+
+Inserting 1,000 elements in descending order took 0.062121 milliseconds
+Inserting 10,000 elements in descending order took 0.955472 milliseconds
+Inserting 100,000 elements in descending order took 17.865 milliseconds
+Inserting 1,000,000 elements in descending order took 345.671 milliseconds
+Inserting 10,000,000 elements in descending order took 4,955.11 milliseconds
+
+
+************************************
+	Delete test for cs540::StdMapWrapper<int, int>	
+************************************
+
+deleting 10000 elements from a map of size 10000 took 0.705433 milliseconds
+deleting 10000 elements from a map of size 100000 took 3.3457 milliseconds
+deleting 10000 elements from a map of size 1000000 took 9.84888 milliseconds
+deleting 10000 elements from a map of size 10000000 took 16.8003 milliseconds
+
+
+************************************
+	Find test for cs540::StdMapWrapper<int, int>	
+************************************
+
+Finding 10000 elements from a map of size 10,000 took 1.85892 milliseconds
+Finding 10000 elements from a map of size 100,000 took 7.13971 milliseconds
+Finding 10000 elements from a map of size 1,000,000 took 11.5736 milliseconds
+Finding 10000 elements from a map of size 10,000,000 took 17.811 milliseconds
+
+
+************************************
+	Iteration test for cs540::StdMapWrapper<int, int>	
+************************************
+
+Iterating across 10,000 elements in a map of size 10,000 took 0.106086 milliseconds time per iteration was 10.6086 nanoseconds
+Iterating across 20,000 elements in a map of size 20,000 took 0.213503 milliseconds time per iteration was 10.6752 nanoseconds
+Iterating across 40,000 elements in a map of size 40,000 took 0.417548 milliseconds time per iteration was 10.4387 nanoseconds
+Iterating across 80,000 elements in a map of size 80,000 took 0.855146 milliseconds time per iteration was 10.6893 nanoseconds
+Iterating across 160,000 elements in a map of size 160,000 took 1.6684 milliseconds time per iteration was 10.4275 nanoseconds
+Iterating across 320,000 elements in a map of size 320,000 took 4.21898 milliseconds time per iteration was 13.1843 nanoseconds
+Iterating across 640,000 elements in a map of size 640,000 took 14.3989 milliseconds time per iteration was 22.4983 nanoseconds
+Iterating across 1,280,000 elements in a map of size 1,280,000 took 28.532 milliseconds time per iteration was 22.2906 nanoseconds
+Iterating across 5,120,000 elements in a map of size 5,120,000 took 110.932 milliseconds time per iteration was 21.6663 nanoseconds
+
+
+************************************
+	Copy test for cs540::StdMapWrapper<int, int>	
+************************************
+
+Copy construction of a map of size 10,000 took 0.208634 milliseconds
+Copy construction of a map of size 100,000 took 2.2654 milliseconds
+Copy construction of a map of size 1,000,000 took 27.0721 milliseconds
+Copy construction of a map of size 10,000,000 took 604.521 milliseconds
